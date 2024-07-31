@@ -38,7 +38,7 @@ sql.connect(config).then(pool => {
 
 app.use(cors({
   credentials: true,
-  origin: 'http://45.55.97.152:1400'
+  origin: 'http://45.55.97.152:2100'
 }));
 
 app.use(express.json());
